@@ -1,4 +1,6 @@
 dependencies:
   espressif/esp32-camera:
-    version: '*'
-  espressif/esp_lcd_ili9341: ^2.0.0
+    version: "*"
+  nopnop2002/mirf:
+    path: components/mirf/
+    git: https://github.com/nopnop2002/esp-idf-mirf.git

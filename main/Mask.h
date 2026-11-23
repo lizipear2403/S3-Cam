@@ -1,0 +1,6 @@
+#define FRAME_ID_MASK ((uint32_t)(0x0000FFFF))
+#define FRAME_ID_OFFSET 0
+#define SUB_FRAME_MASK ((uint32_t)(0x00FF0000))
+#define SUB_FRAME_OFFSET 16
+#define EXPECT_PKT_NUM ((uint32_t)(0xFF000000))
+#define EXPECT_PKT_OFFSET 24
